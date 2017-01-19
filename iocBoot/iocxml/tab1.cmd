@@ -1,0 +1,35 @@
+UIStartObject("TEST", "widget", "class=QWidget, name=layoutWidget")
+UISetProperty("TEST", "name=geometry", "rect", "", "x=20, y=20, width=330, height=330")
+UISetLayout("TEST", "QVBoxLayout", "testLayout")
+
+UIStartObject("TEST", "widget", "class=caLabel, name=caLabel1")
+UISetProperty("TEST", "name=text", "string", "Red", "")
+UISetProperty("TEST", "name=background", "color", "", "red=223, blue=69, green=69")
+UISetProperty("TEST", "name=alignment", "set", "Qt::AlignCenter", "")
+UIEndObject("TEST")
+
+UIStartObject("TEST", "widget", "class=caLabel, name=caLabel2")
+UISetProperty("TEST", "name=text", "string", "Purple", "")
+UISetProperty("TEST", "name=background", "color", "", "red=186, blue=184, green=121")
+UISetProperty("TEST", "name=alignment", "set", "Qt::AlignCenter", "")
+UIEndObject("TEST")
+
+UIStartObject("TEST", "widget", "class=caLabel, name=caLabel3")
+UISetProperty("TEST", "name=text", "string", "Blue", "")
+UISetProperty("TEST", "name=background", "color", "", "red=105, blue=180, green=145")
+UISetProperty("TEST", "name=alignment", "set", "Qt::AlignCenter", "")
+UIEndObject("TEST")
+
+UIStartObject("TEST", "widget", "class=caLabel, name=caLabel4")
+UISetProperty("TEST", "name=text", "string", "Green", "")
+UISetProperty("TEST", "name=background", "color", "", "red=79, blue=84, green=133")
+UISetProperty("TEST", "name=alignment", "set", "Qt::AlignCenter", "")
+UIEndObject("TEST")
+
+UIStartObject("TEST", "widget", "class=caLabel, name=caLabel5")
+UISetProperty("TEST", "name=text", "string", "Yellow", "")
+UISetProperty("TEST", "name=background", "color", "", "red=223, blue=93, green=173")
+UISetProperty("TEST", "name=alignment", "set", "Qt::AlignCenter", "")
+UIEndObject("TEST")
+
+UIEndObject("TEST")

@@ -1,0 +1,7 @@
+registrar(createUIRegistrar)
+registrar(writeUIRegistrar)
+registrar(startObjectRegistrar)
+registrar(setPropRegistrar)
+registrar(setLayoutRegistrar)
+registrar(endObjectRegistrar)
+registrar(setAttributeRegistrar)
